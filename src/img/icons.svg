@@ -1,0 +1,24 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="icon-logo" viewBox="0 0 35 32">
+            <path fill="#02bc6b" style="fill: var(--color1, #02bc6b)" d="M2.71 29.802c-1.49 0-2.71-1.219-2.71-2.71v-9.473h6.821v-0.011h4.099c1.057-0.027 1.951-0.948 1.951-2.032 0-1.111-0.921-2.032-2.032-2.032l-10.839 0.002v-2.711c0-1.49 1.219-2.71 2.71-2.71h8.129c2.059 0 3.821 0.732 5.257 2.195 1.463 1.436 2.195 3.197 2.195 5.257 0 2.032-0.705 3.794-2.141 5.23s-3.17 2.195-5.203 2.222h-5.528v4.065c0 1.49-1.219 2.71-2.71 2.71z"></path>
+            <path fill="#02897a" style="fill: var(--color2, #02897a)" d="M21.706 4.98c2.994 2.908 4.502 6.529 4.502 10.646 0 4.048-1.445 7.666-4.393 10.583l-4.185-3.937c1.833-1.814 2.733-3.998 2.733-6.645 0-2.667-0.927-4.848-2.804-6.671l4.146-3.975z"></path>
+            <path fill="#035b81" style="fill: var(--color3, #035b81)" d="M28.113 0c4.312 4.305 6.482 9.643 6.482 15.77 0 6.031-2.082 11.366-6.323 15.68l-4.039-3.946c3.159-3.214 4.707-7.112 4.707-11.734 0-4.669-1.6-8.563-4.828-11.786l4.002-3.984z"></path>
+            <path fill="#028e37" style="fill: var(--color4, #028e37)" d="M0 23.051h5.419v4.042c0 1.49-1.219 2.71-2.71 2.71s-2.71-1.219-2.71-2.71v-4.042z"></path>
+        </symbol>
+
+        <symbol id="icon-burger" viewBox="0 0 29 32">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 16h21.677"></path>
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 8h21.677"></path>
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 24h21.677"></path>
+        </symbol>
+
+        <symbol id="icon-close" viewBox="0 0 20 20">
+            <path d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"></path>
+        </symbol>
+
+        <symbol id="icon-play" viewBox="0 0 17 20">
+            <path d="M16.235 9.175c0.753 0.432 0.753 1.519 0 1.951l-14.037 8.057c-0.75 0.43-1.685-0.111-1.685-0.976v-16.114c0-0.865 0.935-1.406 1.685-0.976l14.037 8.057z"></path>
+        </symbol>
+    </defs>
+</svg>
