@@ -126,10 +126,14 @@
   --button-bg-color: #02897a;
   --card-bg-color: #02897a;
   --card-light-bg-color: #fff;
+  --button-light-bg-color: #fff;
   --hover-bg-color: #22343d;
   --soc-icon-bg-color: #edfffc;
   --star-icon-color: #f3cd03;
   --feedback-border-color: #dedede;
+  --input-color: #bcd0e5;
+  --input-focus-color: #22343d;
+  --social-icons-bg: #edfffc;
 
   --main-dark-font-color: #22343d;
   --main-light-font-color: #fff;

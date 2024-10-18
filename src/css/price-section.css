@@ -18,15 +18,16 @@
 .price-list {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 32px;
+
 }
 
 .price-item {
     border-radius: 8px;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
     background: var(--card-light-bg-color);
-    padding-top: 24px;
-    padding-bottom: 32px;
+    padding: 24px 70px 32px;
     text-align: center;
     max-width: 322px;
 }
