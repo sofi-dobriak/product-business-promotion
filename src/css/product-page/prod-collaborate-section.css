@@ -1,0 +1,33 @@
+.collaborative-section {
+    padding: 50px 0;
+}
+
+.collaborative-img {
+    margin-bottom: 50px;
+}
+
+.collaborative-pre-text {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.collaborative-title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.collaborative-text {
+    margin-bottom: 16px;
+}
+
+.collaborative-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.collaborative-sub-title {
+    font-weight: 600;
+    margin-bottom: 12px;
+}

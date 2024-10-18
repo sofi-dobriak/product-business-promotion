@@ -44,7 +44,7 @@
 
 .close-icon:hover,
 .close-icon:focus {
-    fill: #22343d;
+    fill: var(--main-dark-font-color);
 }
 
 .mobile-link-list {
@@ -57,7 +57,7 @@
 .mobile-link {
     font-size: var(--main-font-size);
     line-height: 1.75;
-    color: #fff;
+    color: var(--main-light-font-color);
     transition: color 0.3s, font-weight 0.3s;
 }
 
@@ -90,31 +90,30 @@
 }
 
 .sign-in {
-    background-color: #fff;
+    background-color: var(--body-light-bg);
     border: 1px solid #bcd0e5;
     border-radius: 4px;
     color: #173a56;
-    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+    transition: background-color 0.3s;
 }
 
 .sign-in:hover,
 .sign-in:focus {
-    background-color: #02897a;
-    border-color: 02897a;
-    color: #fff;
+    background-color: var(--main-dark-font-color);
+    color: var(--main-light-font-color);
 }
 
 .sign-up {
-    color: #fff;
+    color: var(--main-light-font-color);
     border: 1px solid #bcd0e5;
     border-radius: 4px;
-    background-color: #02897a;
+    background-color: var(--card-bg-color);
     transition: color 0.3s, background-color 0.3s, border-color 0.3s;
 }
 
 .sign-up:hover,
 .sign-up:focus {
-    color: #173a56;
-    background-color: #fff;
-    border-color: #fff;
+    color: var(--main-light-font-color);
+    background-color: var(--main-dark-font-color);
+    border-color: var(--main-light-font-color);
 }

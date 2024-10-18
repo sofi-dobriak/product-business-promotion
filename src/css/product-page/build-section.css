@@ -17,6 +17,15 @@
     margin-bottom: 32px;
 }
 
+.build-item .build-icon {
+    transition: box-shadow .3s;
+}
+
+.build-item:hover .build-icon,
+.build-item:focus .build-icon {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
 .build-icon {
     fill: var(--soc-icon-bg-color);
     border-radius: 18px;
@@ -69,4 +78,11 @@
 
     display: block;
     margin: 0 auto;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.build-button:hover,
+.build-button:focus {
+    background-color: var(--hover-bg-color);
 }

@@ -7,4 +7,8 @@
 @import url('./mobile-menu.css');
 @import url('./product-page/hero-section.css');
 @import url('./product-page/build-section.css');
+@import url('./product-page/prod-manage-section.css');
+@import url('./product-page/prod-support-section.css');
+@import url('./product-page/prod-collaborate-section.css');
+@import url('./product-page/prod-process-section.css');
 @import url('./footer.css');

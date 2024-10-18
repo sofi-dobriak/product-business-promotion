@@ -125,16 +125,20 @@
 
   --button-bg-color: #02897a;
   --card-bg-color: #02897a;
+  --hover-bg-color: #22343d;
   --soc-icon-bg-color: #edfffc;
 
   --main-dark-font-color: #22343d;
   --main-light-font-color: #fff;
   --accent-font-color: #02897a;
+  --accent-dark-font-color: #2f281e;
 
 
   /* Fonts */
 
   --main-font-family: "Poppins", sans-serif;
+  --second-font-family: "Inter", sans-serif;
+  --third-font-family: "Montserrat", sans-serif;
   --main-font-size: 16px;
 }
 
@@ -145,6 +149,7 @@ body {
   font-family: var(--main-font-family);
   font-style: var(--main-font-size);
   font-weight: 400;
+  line-height: 1.62;
   color: var(--main-dark-font-color);
   background-color: var(--body-light-bg);
 }

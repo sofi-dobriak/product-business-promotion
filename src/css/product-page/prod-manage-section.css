@@ -1,0 +1,37 @@
+.management-section {
+    padding: 50px 0;
+}
+
+.management-img {
+    margin-bottom: 50px;
+}
+
+.management-pre-text {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.management-title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.management-text {
+    margin-bottom: 16px;
+}
+
+.management-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.management-sub-title {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.management-item-text {
+    max-width: 328px;
+}

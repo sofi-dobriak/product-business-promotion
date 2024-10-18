@@ -40,13 +40,12 @@
     border: 1px solid var(--button-bg-color);
     border-radius: 4px;
     background-color: var(--button-bg-color);
-    transition: color 0.3s, background-color 0.3s;
+    transition: background-color 0.3s;
 }
 
 .started-btn:hover,
 .started-btn:focus {
-    color: var(--main-dark-font-color);
-    background-color: var(--body-light-bg);
+    background-color: var(--hover-bg-color);
 }
 
 .video-btn {
