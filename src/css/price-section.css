@@ -1,0 +1,131 @@
+.price-section {
+    padding: 50px 0;
+}
+
+.price-title {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.price-text {
+    font-weight: 500;
+    margin-bottom: 74px;
+    text-align: center;
+}
+
+.price-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.price-item {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background: var(--card-light-bg-color);
+    padding-top: 24px;
+    padding-bottom: 32px;
+    text-align: center;
+    max-width: 322px;
+}
+
+.price-item:nth-child(even) {
+    background: var(--card-bg-color);
+    color: var(--main-light-font-color);
+}
+
+.price-sub-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    margin-bottom: 8px;
+}
+
+.price-description {
+    line-height: 2.5;
+    margin-bottom: 16px;
+}
+
+.price-num-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.price-num {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.31579;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--accent-font-color);
+}
+
+.price-item:nth-child(even) .price-num {
+    color: var(--main-light-font-color);
+}
+
+.price-period-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.price-currency {
+    font-family: var(--second-font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    color: var(--accent-font-color);
+}
+
+.price-item:nth-child(even) .price-currency {
+    color: var(--main-light-font-color);
+}
+
+.price-period {
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: var(--period-price-font-color)
+}
+
+.price-list-services {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 38px;
+}
+
+.price-button {
+    font-family: var(--third-font-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--main-light-font-color);
+
+    border: none;
+    border-radius: 8px;
+    min-width: 138px;
+    height: 44px;
+    background-color: var(--button-bg-color);
+    transition: background-color 0.3s;
+}
+
+.price-button:hover,
+.price-button:focus {
+    background-color: var(--hover-bg-color);
+}
+
+.price-item:nth-child(even) .price-button {
+    background: var(--card-light-bg-color);
+    color: var(--accent-font-color);
+    transition: color .3s;
+}
+
+.price-item:nth-child(even) .price-button:hover,
+.price-item:nth-child(even) .price-button:focus {
+    color: var(--main-dark-font-color);
+}

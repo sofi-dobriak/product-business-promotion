@@ -125,13 +125,19 @@
 
   --button-bg-color: #02897a;
   --card-bg-color: #02897a;
+  --card-light-bg-color: #fff;
   --hover-bg-color: #22343d;
   --soc-icon-bg-color: #edfffc;
+  --star-icon-color: #f3cd03;
+  --feedback-border-color: #dedede;
 
   --main-dark-font-color: #22343d;
   --main-light-font-color: #fff;
   --accent-font-color: #02897a;
   --accent-dark-font-color: #2f281e;
+  --period-price-font-color: #afafaf;
+  --feedback-font-color: #32454f;
+  --feddback-author-font-color: #252b42;
 
 
   /* Fonts */
