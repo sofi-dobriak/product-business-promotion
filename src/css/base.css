@@ -119,30 +119,40 @@
 :root {
 
   /* Colors */
+  --accent-light-font-color: #02897a;
+  --accent-dark-font-color: #2f281e;
+  --article-border-color: #dedede;
 
   --body-light-bg: #fff;
   --body-dark-bg: #1f2e35;
 
   --button-bg-color: #02897a;
+  --button-light-bg-color: #fff;
+  --button-border-color: #bcd0e5;
+  --button-text-color: #173a56;
+
   --card-bg-color: #02897a;
   --card-light-bg-color: #fff;
-  --button-light-bg-color: #fff;
-  --hover-bg-color: #22343d;
-  --soc-icon-bg-color: #edfffc;
-  --star-icon-color: #f3cd03;
-  --feedback-border-color: #dedede;
-  --input-color: #bcd0e5;
-  --input-focus-color: #22343d;
-  --social-icons-bg: #edfffc;
 
-  --main-dark-font-color: #22343d;
-  --main-light-font-color: #fff;
-  --accent-font-color: #02897a;
-  --accent-dark-font-color: #2f281e;
-  --period-price-font-color: #afafaf;
+  --decon-icon-color: #fff;
+
+  --feedback-border-color: #dedede;
   --feedback-font-color: #32454f;
   --feddback-author-font-color: #252b42;
 
+  --hover-focus-color: #22343d;
+
+  --input-border-color: #bcd0e5;
+
+  --main-dark-font-color: #22343d;
+  --main-light-font-color: #fff;
+
+  --period-price-font-color: #afafaf;
+
+  --star-icon-color: #f3cd03;
+  --soc-icon-color: #02897a;
+  --soc-icon-hover-color: #edfffc;
+  --soc-icon-bg-color: #edfffc;
 
   /* Fonts */
 
@@ -177,15 +187,18 @@ body {
   overflow: hidden;
 }
 
+.section {
+  padding: 50px 0;
+}
+
 .container {
   max-width: 370px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Styles for Desktop devices */
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1150px) {
   .container {
-    max-width: 1200px;
+    max-width: 1150px;
   }
 }

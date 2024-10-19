@@ -38,7 +38,7 @@
 }
 
 .close-icon {
-    fill: #fff;
+    fill: var(--soc-icon-light-color);
     transition: fill 0.3s;
 }
 
@@ -91,15 +91,15 @@
 
 .sign-in {
     background-color: var(--body-light-bg);
-    border: 1px solid #bcd0e5;
+    border: 1px solid var(--button-border-color);
     border-radius: 4px;
-    color: #173a56;
+    color: var(--button-text-color);
     transition: background-color 0.3s;
 }
 
 .sign-in:hover,
 .sign-in:focus {
-    background-color: var(--main-dark-font-color);
+    background-color: var(--hover-focus-color);
     color: var(--main-light-font-color);
 }
 
@@ -114,6 +114,6 @@
 .sign-up:hover,
 .sign-up:focus {
     color: var(--main-light-font-color);
-    background-color: var(--main-dark-font-color);
-    border-color: var(--main-light-font-color);
+    background-color: var(--hover-focus-color);
+    border-color: var(--button-border-color);
 }

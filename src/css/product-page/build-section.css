@@ -1,8 +1,3 @@
-.build-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
 .build-title {
     text-align: center;
     font-weight: 700;
@@ -28,7 +23,7 @@
 }
 
 .build-icon {
-    fill: var(--soc-icon-bg-color);
+    fill: var(--decon-icon-color);
     border-radius: 18px;
     max-width: 50px;
     max-height: 50px;
@@ -85,5 +80,5 @@
 
 .build-button:hover,
 .build-button:focus {
-    background-color: var(--hover-bg-color);
+    background-color: var(--hover-focus-color);
 }
