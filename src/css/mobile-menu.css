@@ -38,13 +38,13 @@
 }
 
 .close-icon {
-    fill: var(--soc-icon-light-color);
+    fill: var(--decon-icon-color);
     transition: fill 0.3s;
 }
 
 .close-icon:hover,
 .close-icon:focus {
-    fill: var(--main-dark-font-color);
+    fill: var(--hover-focus-color);
 }
 
 .mobile-link-list {

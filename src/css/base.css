@@ -133,6 +133,7 @@
 
   --card-bg-color: #02897a;
   --card-light-bg-color: #fff;
+  --choose-border-color: #dedede;
 
   --decon-icon-color: #fff;
 
@@ -153,6 +154,8 @@
   --soc-icon-color: #02897a;
   --soc-icon-hover-color: #edfffc;
   --soc-icon-bg-color: #edfffc;
+
+  --section-bg: #f5f5f5;
 
   /* Fonts */
 

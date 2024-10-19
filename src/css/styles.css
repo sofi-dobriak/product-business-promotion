@@ -14,5 +14,9 @@
 @import url('./product-page/prod-strategies-section.css');
 @import url('./price-section.css');
 @import url('./product-page/prod-feedback-section.css');
+@import url('./customer-page/cust-hero-section.css');
+@import url('./customer-page/cust-choose-section.css');
+@import url('./customer-page/cust-how-work-section.css');
+@import url('./customer-page/cust-join-section.css');
 @import url('./join-card.css');
 @import url('./footer.css');

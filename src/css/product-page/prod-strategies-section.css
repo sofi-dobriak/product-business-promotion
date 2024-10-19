@@ -27,7 +27,7 @@
 
 .strategies-item:hover,
 .strategies-item:focus {
-
+    color: var(--accent-light-font-color);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -57,9 +57,4 @@
     line-height: 1.67;
     max-width: 294px;
     transition: color 0.3s;
-}
-
-.strategies-sub-title:hover,
-.strategies-sub-title:focus {
-    color: var(--accent-light-font-color);
 }
