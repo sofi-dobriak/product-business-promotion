@@ -46,11 +46,16 @@
 }
 
 .join-text-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
+    text-align: center;
     margin-bottom: 12px;
+}
+
+.join-item {
+    margin-bottom: 4px;
+}
+
+.join-text-list .join-item:last-child {
+    margin-bottom: 0;
 }
 
 .join-section-text {

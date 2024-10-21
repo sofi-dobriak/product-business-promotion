@@ -1,0 +1,46 @@
+.effect-section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.effect-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.effect-img {
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.effect-item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.icon-title-container {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.icon-container {
+    display: flex;
+    border-radius: 100%;
+    background-color: var(--decon-icon-bg);
+}
+
+.effect-icon {
+    padding: 14px;
+}
+
+.effect-sub-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.effect-text {
+    line-height: 1.75;
+}

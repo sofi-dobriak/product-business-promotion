@@ -1,5 +1,5 @@
 .management-img {
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
 }
 
 .management-pre-text {
@@ -17,10 +17,8 @@
     margin-bottom: 16px;
 }
 
-.management-list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+.management-item:not(:last-child) {
+    margin-bottom: 16px;
 }
 
 .management-sub-title {

@@ -17,10 +17,8 @@
     margin-bottom: 16px;
 }
 
-.collaborative-list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+.collaborative-item:not(:last-child) {
+    margin-bottom: 24px;
 }
 
 .collaborative-sub-title {

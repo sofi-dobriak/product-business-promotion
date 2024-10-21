@@ -33,3 +33,7 @@
 .join-button:focus {
     color: var(--main-dark-font-color);
 }
+
+.join-img {
+    margin: 0 auto;
+}

@@ -1,5 +1,5 @@
 .support-img {
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
 }
 
 .support-pre-text {
@@ -17,12 +17,9 @@
     margin-bottom: 16px;
 }
 
-.support-list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+.support-item:not(:last-child) {
+    margin-bottom: 16px;
 }
-
 
 .support-item {
     display: flex;
