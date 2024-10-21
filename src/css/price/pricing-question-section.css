@@ -43,14 +43,14 @@
     height: 24px;
     top: 0;
     left: 0;
-    background-image: url('/question-plus.png');
+    background-image: url('../question-plus.png');
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.3s ease;
 }
 
 .question-details[open] .question-summary::before {
-    background-image: url('/question-minus.png');
+    background-image: url('../question-minus.png');
 }
 
 .answer {
