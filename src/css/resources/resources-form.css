@@ -1,9 +1,9 @@
-.form-section {
+.message-form-section {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.form-title {
+.message-form-title {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.375;
@@ -12,11 +12,11 @@
     color: var(--form-title-color);
 }
 
-.form {
+.message-form {
     margin-bottom: 32px;
 }
 
-.form-input {
+.message-form-input {
     border: 1px solid var(--form-border-color);
     border-radius: 39px;
     background-color: var(--form-input-bg);
@@ -26,8 +26,8 @@
     margin-bottom: 32px;
 }
 
-.form-input::placeholder,
-.form-textarea::placeholder {
+.message-form-input::placeholder,
+.message-form-textarea::placeholder {
     font-family: var(--fourth-font-family);
     font-size: 15px;
     line-height: 1.07;
@@ -35,7 +35,7 @@
     color: var(--main-dark-font-color);
 }
 
-.form-textarea {
+.message-form-textarea {
     border: 1px solid var(--form-border-color);
     background-color: var(--form-input-bg);
     padding: 22px 20px;
@@ -44,7 +44,7 @@
     resize: none;
 }
 
-.form-textarea:focus {
+.message-form-textarea:focus {
     outline: none;
 }
 
