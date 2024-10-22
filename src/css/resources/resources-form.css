@@ -1,0 +1,65 @@
+.form-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.375;
+    letter-spacing: 0em;
+    margin-bottom: 32px;
+    color: var(--form-title-color);
+}
+
+.form {
+    margin-bottom: 32px;
+}
+
+.form-input {
+    border: 1px solid var(--form-border-color);
+    border-radius: 39px;
+    background-color: var(--form-input-bg);
+    padding: 18px 20px;
+    width: 344px;
+    height: 54px;
+    margin-bottom: 32px;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    font-family: var(--fourth-font-family);
+    font-size: 15px;
+    line-height: 1.07;
+    letter-spacing: 0.01em;
+    color: var(--main-dark-font-color);
+}
+
+.form-textarea {
+    border: 1px solid var(--form-border-color);
+    background-color: var(--form-input-bg);
+    padding: 22px 20px;
+    width: 344px;
+    height: 192px;
+    resize: none;
+}
+
+.form-textarea:focus {
+    outline: none;
+}
+
+.message-form-button {
+    border-radius: 35px;
+    min-width: 144px;
+    height: 52px;
+    border: none;
+    background-color: var(--button-bg-color);
+    color: var(--main-light-font-color);
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.message-form-button:hover,
+.message-form-button:focus {
+    background-color: var(--hover-focus-color);
+}

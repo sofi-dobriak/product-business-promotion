@@ -1,0 +1,53 @@
+.contact-us-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-us-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.67;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contsct-us-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.contact-us-icon {
+    transition: fill 0.3s;
+    cursor: pointer;
+}
+
+.contact-us-icon:hover,
+.contact-us-icon:focus {
+    fill: var(--soc-icon-color);
+}
+
+.twitter {
+    fill: #11b5e4;
+}
+
+.facebook {
+    fill: #007ab6;
+}
+
+.linkedin {
+    fill: #025279;
+}
+
+.contact-us-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--contacts-text-color);
+    margin-bottom: 16px;
+}

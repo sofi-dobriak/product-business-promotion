@@ -23,5 +23,8 @@
 @import url('./price/pricing-effect-section.css');
 @import url('./price/pricing-question-section.css');
 @import url('./resources/resources-subscribe-section.css');
+@import url('./resources/resources-articles-section.css');
+@import url('./resources/resources-contact-us-section.css');
+@import url('./resources/resources-form.css');
 @import url('./join-card.css');
 @import url('./footer.css');
