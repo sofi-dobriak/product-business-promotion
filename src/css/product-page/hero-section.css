@@ -35,8 +35,10 @@
 .started-btn {
     font-weight: 700;
     color: var(--main-light-font-color);
-
-    min-width: 142px;
+    display: block;
+    text-align: center;
+    padding-top: 14px;
+    width: 142px;
     height: 52px;
 
     border: none;
