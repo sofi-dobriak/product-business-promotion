@@ -49,5 +49,11 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: var(--contacts-text-color);
-    margin-bottom: 16px;
+    max-width: 334px;
+    display: block;
+    margin: 0 auto 16px;
+}
+
+.contact-us-img {
+    margin: 0 auto;
 }

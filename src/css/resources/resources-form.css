@@ -9,12 +9,15 @@
     line-height: 1.375;
     letter-spacing: 0em;
     text-align: center;
-    margin-bottom: 32px;
     color: var(--form-title-color);
+    display: block;
+    margin: 0 auto 32px;
 }
 
 .message-form {
-    margin-bottom: 32px;
+    display: block;
+    margin: 0 auto 32px;
+    margin-bottom: ;
 }
 
 .message-form-input {

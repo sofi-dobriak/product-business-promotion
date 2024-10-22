@@ -36,3 +36,7 @@
 .how-work-description {
     line-height: 1.75;
 }
+
+.how-work-description.step-one {
+    max-width: 354px;
+}
