@@ -29,7 +29,8 @@
     border-radius: 39px;
     background-color: var(--form-input-bg);
     padding: 18px 20px;
-    width: 344px;
+    width: 100%;
+    max-width: 410px;
     height: 54px;
     margin-bottom: 32px;
 }
@@ -44,10 +45,12 @@
 }
 
 .message-form-textarea {
+    border-radius: 8px;
     border: 1px solid var(--form-border-color);
     background-color: var(--form-input-bg);
     padding: 22px 20px;
-    width: 344px;
+    width: 100%;
+    max-width: 410px;
     height: 192px;
     resize: none;
 }

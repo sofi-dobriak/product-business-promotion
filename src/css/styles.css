@@ -7,6 +7,7 @@
 @import url('./mobile-menu.css');
 @import url('./sign-pages/sign-in-page.css');
 @import url('./sign-pages/sign-up-page.css');
+@import url('./modal-window.css');
 @import url('./product-page/hero-section.css');
 @import url('./product-page/build-section.css');
 @import url('./product-page/prod-manage-section.css');

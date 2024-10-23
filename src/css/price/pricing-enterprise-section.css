@@ -32,8 +32,11 @@
     border: none;
     border-radius: 8px;
     background-color: var(--button-bg-color);
-    min-width: 224px;
+    width: 224px;
     height: 44px;
+
+    text-align: center;
+    padding-top: 8px;
 
     display: block;
     margin: 0 auto;
