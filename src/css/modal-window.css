@@ -41,8 +41,8 @@
     width: 100%;
     max-width: 370px;
 
-    height: 100%;
-    max-height: 600px;
+    height: 50%;
+    min-height: 600px;
 
     overflow-y: auto;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -101,6 +101,14 @@
     line-height: 1.07;
     letter-spacing: 0.01em;
     color: var(--main-dark-font-color);
+    transition: color .3s;
+}
+
+.modal-form-input:hover::placeholder,
+.modal-form-input:focus::placeholder,
+.modal-form-textarea:hover::placeholder,
+.modal-form-textarea:focus::placeholder {
+    color: var(--accent-light-font-color);
 }
 
 .modal-form-textarea {
