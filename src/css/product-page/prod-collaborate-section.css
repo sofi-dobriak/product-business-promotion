@@ -25,3 +25,29 @@
     font-weight: 600;
     margin-bottom: 12px;
 }
+
+@media screen and (min-width: 1150px) {
+    .collaborative-img {
+        margin-bottom: 0;
+    }
+
+    .collaborative-section-container {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 84px;
+    }
+
+    .collaborative-title {
+        margin-bottom: 26px;
+    }
+
+    .collaborative-text {
+        margin-bottom: 30px;
+        max-width: 486px;
+    }
+
+    .collaborative-description {
+        max-width: 486px;
+    }
+}

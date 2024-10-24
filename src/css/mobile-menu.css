@@ -68,7 +68,7 @@
 
 .current {
     color: var(--main-dark-font-color);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .mobile-authorization-list {

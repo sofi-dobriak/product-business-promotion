@@ -63,6 +63,12 @@
     right: 24px;
 
     fill: var(--decon-icon-color);
+    transition: fill .3s;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+    fill: var(--hover-focus-color);
 }
 
 .modal-form-title {

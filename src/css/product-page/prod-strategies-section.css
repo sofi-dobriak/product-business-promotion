@@ -60,3 +60,25 @@
     max-width: 294px;
     transition: color 0.3s;
 }
+
+@media screen and (min-width: 1150px) {
+    .strategies-title {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .strategies-text {
+        text-align: left;
+        max-width: 476px;
+    }
+
+    .strategies-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .strategies-item {
+        flex-basis: calc((100% - 60px) / 3);
+    }
+}

@@ -52,10 +52,6 @@
     gap: 8px;
 }
 
-/* .price-item:last-child .price-num-container {
-    gap: 0;
-} */
-
 .price-num {
     font-weight: 700;
     font-size: 76px;
@@ -129,4 +125,24 @@
 .price-item:nth-child(even) .price-button:hover,
 .price-item:nth-child(even) .price-button:focus {
     color: var(--main-dark-font-color);
+}
+
+@media screen and (min-width: 1150px) {
+    .price-title {
+        margin-bottom: 10px;
+    }
+
+    .price-text {
+        margin-bottom: 40px;
+    }
+
+    .price-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px;
+    }
+
+    .price-item {
+        flex-basis: calc((100% - 72px * 2) / 3);
+    }
 }

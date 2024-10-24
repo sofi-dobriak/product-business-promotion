@@ -46,6 +46,7 @@
     border-radius: 100px;
     background-color: var(--button-bg-color);
     color: var(--main-light-font-color);
+    transition: background-color 0.3s;
 }
 
 .subscribe-button:hover,

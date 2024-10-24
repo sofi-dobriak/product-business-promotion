@@ -37,3 +37,27 @@
 .join-img {
     margin: 0 auto;
 }
+
+@media screen and (min-width: 1150px) {
+    .join-card {
+        max-width: 968px;
+        margin: 0 auto;
+    }
+
+    .join-card-container {
+        display: flex;
+    }
+
+    .join-card-text-container {
+        padding: 50px;
+    }
+
+    .join-text {
+        text-align: left;
+        margin-bottom: 46px;
+    }
+
+    .join-button {
+        margin: 0;
+    }
+}

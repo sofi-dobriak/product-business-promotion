@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    max-width: 226px;
     margin: 0 auto 32px;
 }
 
@@ -84,4 +83,31 @@
 .build-button:hover,
 .build-button:focus {
     background-color: var(--hover-focus-color);
+}
+
+@media screen and (min-width: 1150px) {
+    .build-title {
+        max-width: 534px;
+        margin: 0 auto 50px;
+    }
+
+    .build-list {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 50px;
+    }
+
+    .build-sub-title {
+        text-align: left;
+    }
+
+    .build-text {
+        text-align: left;
+        max-width: 256px;
+    }
+
+    .build-icon {
+        margin: 0;
+        margin-bottom: 26px;
+    }
 }

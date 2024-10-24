@@ -69,3 +69,30 @@
     letter-spacing: 0.01em;
     color: var(--feddback-author-font-color);
 }
+
+@media screen and (min-width: 1150px) {
+    .feedback-title {
+        font-size: 32px;
+        line-height: 1.78;
+        margin-bottom: 10px;
+    }
+
+    .feedback-text {
+        max-width: 536px;
+        margin-bottom: 50px;
+    }
+
+    .feedback-description {
+        color: var(--feedback-desk-font-color);
+    }
+
+    .feedback-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px;
+    }
+
+    .feedback-item {
+        flex-basis: calc((100% - 64px * 2) / 3);
+    }
+}

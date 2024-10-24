@@ -25,3 +25,30 @@
     font-weight: 600;
     margin-bottom: 12px;
 }
+
+@media screen and (min-width: 1150px) {
+    .management-img {
+        margin: 0;
+    }
+
+    .management-section-container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 84px;
+    }
+
+    .management-title {
+        margin-bottom: 26px;
+    }
+
+    .management-text {
+        max-width: 486px;
+        margin-bottom: 30px;
+    }
+
+    .management-item-text {
+        max-width: 486px;
+        margin-bottom: 24px;
+    }
+}

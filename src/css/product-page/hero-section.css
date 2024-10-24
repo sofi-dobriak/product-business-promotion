@@ -84,3 +84,40 @@
 .video-btn:focus .video-icon {
     fill: var(--main-dark-font-color)
 }
+
+@media screen and (min-width: 1150px) {
+    .hero-section {
+        padding-top: 26px;
+        padding-bottom: 50px;
+    }
+
+    .hero-section-container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 36px;
+    }
+
+    .hero-img {
+        margin: 0;
+    }
+
+    .hero-title {
+        text-align: left;
+        font-size: 40px;
+        line-height: 1.5;
+        margin-bottom: 18px;
+        max-width: 420px;
+    }
+
+    .hero-text {
+        margin: 0 0 40px;
+        text-align: left;
+        max-width: 464px;
+    }
+
+    .hero-list {
+        justify-content: start;
+    }
+}

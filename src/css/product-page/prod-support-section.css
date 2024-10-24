@@ -52,3 +52,32 @@
 .blue {
     background-color: #4d8dff;
 }
+
+@media screen and (min-width: 1150px) {
+    .support-section-container {
+        display: flex;
+        align-items: center;
+        gap: 84px;
+    }
+
+    .support-img {
+        margin: 0;
+    }
+
+    .support-title {
+        margin-bottom: 26px;
+    }
+
+    .support-text {
+        max-width: 486px;
+        margin-bottom: 30px;
+    }
+
+    .support-item:not(:last-child) {
+        margin-bottom: 26px;
+    }
+
+    .support-description {
+        max-width: 384px;
+    }
+}
