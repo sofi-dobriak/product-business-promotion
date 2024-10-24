@@ -135,3 +135,20 @@
 .modal-form-button:focus {
     color: var(--hover-focus-color);
 }
+
+@media screen and (min-width: 1150px) {
+    .modal-window {
+        max-width: 600px;
+    }
+
+    .modal-form-input,
+    .modal-form-textarea {
+        width: calc(100% - 40px);
+        max-width: 500px;
+    }
+
+    .modal-close-btn {
+        top: 40px;
+        right: 40px;
+    }
+}
