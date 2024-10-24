@@ -6,14 +6,14 @@
     <link rel="icon" type="image/png" href="/product-business-promotion/assets/logo-DRD3G95D.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
-  <script type="module" crossorigin src="/product-business-promotion/assets/main-B7tGQDDk.js"></script>
-  <link rel="stylesheet" crossorigin href="/product-business-promotion/assets/main-DOoQDfhM.css">
+  <script type="module" crossorigin src="/product-business-promotion/assets/main-BxJiJY0H.js"></script>
+  <link rel="stylesheet" crossorigin href="/product-business-promotion/assets/main-B9F1k-qx.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-    <nav class="navigation">
+    <nav class="navigation header-nav">
 
         <!-- Logo -->
         <a class="logo-link" href="./index.html">
@@ -21,10 +21,26 @@
             <p class="logo-text">Product</p>
         </a>
 
+        <ul class="header-link-list">
+            <li><a class="header-link current" href="./index.html">Product</a></li>
+            <li><a class="header-link" href="./customer.html">Customers</a></li>
+            <li><a class="header-link" href="./pricing.html">Pricing</a></li>
+            <li><a class="header-link" href="./resources.html">Resources</a></li>
+        </ul>
+
+        <ul class="header-authorization-list">
+            <li class="header-authorization-item">
+                <a class="header-authorization-btn sign-in" href="./sign-in-page.html">Sign In</a>
+            </li>
+            <li class="header-authorization-item">
+                <a class="header-authorization-btn sign-up" href="./sign-up-page.html">Sign Up</a>
+            </li>
+        </ul>
+
         <!-- Burger button -->
         <button class="burger-button mobile-btn-open">
             <svg class="burger-icon" width="28" height="30">
-                <use href="/product-business-promotion/assets/icons-nhB5OzqU.svg#icon-burger"></use>
+                <use href="/product-business-promotion/assets/icons-DNnFYJIS.svg#icon-burger"></use>
             </svg>
         </button>
     </nav>
@@ -32,7 +48,7 @@
         <div class="mobile-window "> <!-- is-open -->
     <button class="close-btn mobile-btn-close" type="button">
         <svg class="close-icon" width="20" height="20">
-            <use href="/product-business-promotion/assets/icons-nhB5OzqU.svg#icon-close"></use>
+            <use href="/product-business-promotion/assets/icons-DNnFYJIS.svg#icon-close"></use>
         </svg>
     </button>
 
@@ -165,7 +181,7 @@
         <a class="articles-link" href="#">
             More Stories
             <svg class="articles-icon" width="20" height="20">
-                <use href="/product-business-promotion/assets/icons-nhB5OzqU.svg#icon-circle_right"></use>
+                <use href="/product-business-promotion/assets/icons-DNnFYJIS.svg#icon-circle_right"></use>
             </svg>
         </a>
     </div>
@@ -176,17 +192,17 @@
         <ul class="contsct-us-list">
             <li class="contact-us-item">
                 <svg class="contact-us-icon twitter" width="40" height="40">
-                    <use href="/product-business-promotion/assets/icons-nhB5OzqU.svg#icon-twitter-square"></use>
+                    <use href="/product-business-promotion/assets/icons-DNnFYJIS.svg#icon-twitter-square"></use>
                 </svg>
             </li>
             <li class="contact-us-item">
                 <svg class="contact-us-icon facebook" width="40" height="40">
-                    <use href="/product-business-promotion/assets/icons-nhB5OzqU.svg#icon-facebook-square"></use>
+                    <use href="/product-business-promotion/assets/icons-DNnFYJIS.svg#icon-facebook-square"></use>
                 </svg>
             </li>
             <li class="contact-us-item">
                 <svg class="contact-us-icon linkedin" width="40" height="40">
-                    <use href="/product-business-promotion/assets/icons-nhB5OzqU.svg#icon-linkedin-square"></use>
+                    <use href="/product-business-promotion/assets/icons-DNnFYJIS.svg#icon-linkedin-square"></use>
                 </svg>
             </li>
         </ul>
@@ -226,21 +242,21 @@
                 <li class="social-item">
                     <a class="social-link" href="https://www.instagram.com/" target="_blank">
                         <svg class="social-icon" width="24" height="24">
-                            <use href="/product-business-promotion/assets/icons-nhB5OzqU.svg#icon-instagram"></use>
+                            <use href="/product-business-promotion/assets/icons-DNnFYJIS.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="social-item">
                     <a class="social-link" href="https://www.facebook.com/" target="_blank">
                         <svg class="social-icon" width="24" height="24">
-                            <use href="/product-business-promotion/assets/icons-nhB5OzqU.svg#icon-facebook"></use>
+                            <use href="/product-business-promotion/assets/icons-DNnFYJIS.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="social-item">
                     <a class="social-link" href="https://x.com/" target="_blank">
                         <svg class="social-icon" width="24" height="24">
-                            <use href="/product-business-promotion/assets/icons-nhB5OzqU.svg#icon-twitter"></use>
+                            <use href="/product-business-promotion/assets/icons-DNnFYJIS.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
@@ -273,8 +289,10 @@
         <div class="form-container">
             <p class="form-title">knowing you're always on the best energy deal.</p>
             <form class="footer-form" name="footer-form">
-                <input class="footer-form-input" type="tel" name="user-phone" placeholder="Your phone number" required
-                    pattern="^\+?[\d\s\-\(\)]{10,15}$">
+                <svg class="footer-form-icon" width="16" height="24">
+                    <use href="/product-business-promotion/assets/icons-DNnFYJIS.svg#icon-phone"></use>
+                </svg>
+                <input class="footer-form-input" type="tel" name="user-phone" placeholder="Your phone number" required>
             </form>
             <button class="form-button" type="submit">Sign up Now</button>
         </div>
@@ -286,7 +304,7 @@
     <div class="modal-window">
         <button class="modal-close-btn modal-btn-close" type="button">
             <svg class="modal-close-icon" width="20" height="20">
-                <use href="/product-business-promotion/assets/icons-nhB5OzqU.svg#icon-close"></use>
+                <use href="/product-business-promotion/assets/icons-DNnFYJIS.svg#icon-close"></use>
             </svg>
         </button>
         <h2 class="modal-form-title">Send a message</h2>
