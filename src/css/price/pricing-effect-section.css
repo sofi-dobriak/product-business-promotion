@@ -10,9 +10,13 @@
     margin-bottom: 32px;
 }
 
-.effect-img {
+.mobile-img {
     margin: 0 auto;
     margin-bottom: 32px;
+}
+
+.desktop-img {
+    display: none;
 }
 
 .effect-item:not(:last-child) {
@@ -43,4 +47,38 @@
 
 .effect-text {
     line-height: 1.75;
+}
+
+@media screen and (min-width: 1150px) {
+    .effect-section {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .effect-title {
+        font-size: 34px;
+        margin-bottom: 56px;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    .desktop-img {
+        display: block;
+    }
+
+    .effect-img-text-container {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .icon-title-container {
+        margin-bottom: 24px;
+    }
+
+    .effect-item:not(:last-child) {
+        margin-bottom: 32px;
+    }
 }

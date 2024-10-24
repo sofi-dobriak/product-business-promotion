@@ -48,3 +48,14 @@
 .touch-button:focus {
     background-color: var(--hover-focus-color);
 }
+
+@media screen and (min-width: 1150px) {
+    .enterprise-section {
+        padding-bottom: 100px;
+    }
+
+    .enterprise-title {
+        font-size: 34px;
+        margin-bottom: 8px;
+    }
+}
