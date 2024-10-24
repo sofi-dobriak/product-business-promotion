@@ -43,6 +43,14 @@
     line-height: 1.07;
     letter-spacing: 0.01em;
     color: var(--main-dark-font-color);
+    transition: color .3s;
+}
+
+.sign-up-form-input:hover::placeholder,
+.sign-up-form-input:focus::placeholder,
+.sign-up-form-textarea:hover::placeholder,
+.sign-up-form-textarea:focus::placeholder {
+    color: var(--accent-light-font-color);
 }
 
 .sign-up-form-textarea {
@@ -86,4 +94,10 @@
 
 .sign-in-link {
     color: var(--accent-light-font-color);
+    transition: color .3s;
+}
+
+.sign-in-link:hover,
+.sign-in-link:focus {
+    text-decoration: underline;
 }

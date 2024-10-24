@@ -24,7 +24,7 @@
     margin-bottom: 32px;
 }
 
-.enterprise-button {
+.touch-button {
     font-weight: 600;
     font-size: 18px;
     color: var(--main-light-font-color);
@@ -44,7 +44,7 @@
     transition: background-color 0.3s;
 }
 
-.enterprise-button:hover,
-.enterprise-button:focus {
+.touch-button:hover,
+.touch-button:focus {
     background-color: var(--hover-focus-color);
 }

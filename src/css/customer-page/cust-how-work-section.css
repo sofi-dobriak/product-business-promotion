@@ -35,8 +35,46 @@
 
 .how-work-description {
     line-height: 1.75;
+    max-width: 354px;
 }
 
-.how-work-description.step-one {
-    max-width: 354px;
+.touch-button.how-work {
+    display: none;
+}
+
+@media screen and (min-width: 1150px) {
+    .how-work-section {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    .how-work-img {
+        margin: 0;
+    }
+
+    .how-work-title {
+        margin-bottom: 72px;
+    }
+
+    .how-work-list {
+        margin-bottom: 80px;
+    }
+
+    .how-work-item {
+        display: flex;
+        align-items: center;
+        gap: 90px;
+    }
+
+    .how-work-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .how-work-description {
+        max-width: 438px;
+    }
+
+    .touch-button.how-work {
+        display: block;
+    }
 }

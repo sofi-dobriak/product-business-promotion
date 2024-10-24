@@ -68,3 +68,24 @@
     line-height: 1.75;
     color: #000;
 }
+
+@media screen and (min-width: 1150px) {
+    .join-section {
+        padding-top: 36px;
+        padding-bottom: 100px;
+        background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+    }
+
+    .join-title {
+        display: block;
+        margin: 0 auto;
+        max-width: 536px;
+        margin-bottom: 94px;
+    }
+
+    .join-list {
+        flex-direction: row;
+        justify-content: center;
+        gap: 220px;
+    }
+}
