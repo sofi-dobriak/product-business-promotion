@@ -39,7 +39,7 @@
         </ul>
 
         <!-- Burger button -->
-        <button class="burger-button mobile-btn-open">
+        <button class="burger-button mobile-btn-open" aria-label="Mobile menu open button">
             <svg class="burger-icon" width="28" height="30">
                 <use href="/product-business-promotion/assets/icons-BBaa0MQK.svg#icon-burger"></use>
             </svg>
@@ -47,7 +47,7 @@
     </nav>
 </div>
     <div class="mobile-window "> <!-- is-open -->
-    <button class="close-btn mobile-btn-close" type="button">
+    <button class="close-btn mobile-btn-close" type="button" aria-label="Mobile menu close button">
         <svg class="close-icon" width="20" height="20">
             <use href="/product-business-promotion/assets/icons-BBaa0MQK.svg#icon-close"></use>
         </svg>
@@ -80,7 +80,7 @@
         <picture>
             <source srcset="/product-business-promotion/assets/hero-img-CbOymQz5.png 1x, /product-business-promotion/assets/hero-img@2x-Es_YNu-d.png 2x" media="(min-width: 1150px)">
             <source srcset="/product-business-promotion/assets/hero-img-B7jINloi.png 1x, /product-business-promotion/assets/hero-img@2x-BUBbSF-t.png 2x" media="(min-width: 410px)">
-            <img class="hero-img" src="/product-business-promotion/assets/hero-img-B7jINloi.png" alt="Hero image" width="610px">
+            <img class="hero-img" src="/product-business-promotion/assets/hero-img-B7jINloi.png" alt="Hero image" width="610">
         </picture>
         <div class="hero-text-container">
             <h1 class="hero-title">Work at the speed of thought</h1>
@@ -147,7 +147,7 @@
             <source srcset="/product-business-promotion/assets/manag-img-Btn0T6pL.png 1x, /product-business-promotion/assets/manag-img@2x-CoGDHckC.png 2x"
                 media="(min-width: 1150px)">
             <source srcset="/product-business-promotion/assets/manag-img-Dt1C0tEt.png 1x, /product-business-promotion/assets/manag-img@2x-a2-pz3j8.png 2x" media="(min-width: 410px)">
-            <img class="management-img" src="/product-business-promotion/assets/manag-img-Dt1C0tEt.png" alt="Document" width="540px">
+            <img class="management-img" src="/product-business-promotion/assets/manag-img-Dt1C0tEt.png" alt="Document" width="540">
         </picture>
         <div class="management-text-container">
             <p class="management-pre-text">Effortless Validation for</p>
@@ -178,7 +178,7 @@
                 media="(min-width: 1150px)">
             <source srcset="/product-business-promotion/assets/support-img-D20YYDec.png 1x, /product-business-promotion/assets/support-img@2x-SuvcMHb1.png 2x"
                 media="(min-width: 410px)">
-            <img class="support-img" src="/product-business-promotion/assets/support-img-D20YYDec.png" alt="A laptop" width="540px">
+            <img class="support-img" src="/product-business-promotion/assets/support-img-D20YYDec.png" alt="A laptop" width="540">
         </picture>
         <div class="support-text-container">
             <p class="support-pre-text">Easier decision making for</p>
@@ -219,7 +219,7 @@
                 media="(min-width: 1150px)">
             <source srcset="/product-business-promotion/assets/collaborative-img-DRLiU8t8.png 1x, /product-business-promotion/assets/collaborative-img@2x-CO4WiPBc.png 2x"
                 media="(min-width: 410px)">
-            <img class="collaborative-img" src="/product-business-promotion/assets/collaborative-img-DRLiU8t8.png" alt="An iamges" width="540px">
+            <img class="collaborative-img" src="/product-business-promotion/assets/collaborative-img-DRLiU8t8.png" alt="An iamges" width="540">
         </picture>
         <div class="collaborative-text-container">
             <p class="collaborative-pre-text">Optimisation for</p>
@@ -255,10 +255,15 @@
         <ul class="process-list">
             <li class="process-item">
                 <picture>
-                    <source srcset="/product-business-promotion/assets/pitch-CA8v1aQT.png 1x, /product-business-promotion/assets/pitch@2x-CNRcAInc.png 2x"
-                        media="(min-width: 1150px)">
-                    <source srcset="/product-business-promotion/assets/pitch-CYAf0S3o.png 1x, /product-business-promotion/assets/pitch@2x-CLibskEJ.png 2x" media="(min-width: 410px)">
-                    <img class="process-img" src="/product-business-promotion/assets/pitch-CYAf0S3o.png" alt="A pitch specialist" width="98px">
+                    <source srcset="/product-business-promotion/assets/pitch-CA8v1aQT.png 1x, /product-business-promotion/assets/pitch@2x-CNRcAInc.png 2x" media="(min-width: 1150px)"
+                        type="image/png">
+                    <source srcset="/img/desktop/pitch.webp 1x, /img/desktop/pitch@2x.webp 2x"
+                        media="(min-width: 1150px)" type="image/webp">
+                    <source srcset="/product-business-promotion/assets/pitch-CYAf0S3o.png 1x, /product-business-promotion/assets/pitch@2x-CLibskEJ.png 2x" media="(min-width: 410px)"
+                        type="image/png">
+                    <source srcset="/product-business-promotion/assets/pitch-kBaZpeq3.webp 1x, /product-business-promotion/assets/pitch@2x-BUVFx-v-.webp 2x" media="(min-width: 410px)"
+                        type="image/webp">
+                    <img class="process-img" src="/product-business-promotion/assets/pitch-CYAf0S3o.png" alt="A pitch specialist" width="98p">
                 </picture>
                 <p class="process-description">I can take care of your pitch</p>
             </li>
@@ -266,18 +271,27 @@
                 <p class="process-description">I can design you website</p>
                 <picture>
                     <source srcset="/product-business-promotion/assets/design-DTerQKfy.png 1x, /product-business-promotion/assets/design@2x-BahyGggB.png 2x"
-                        media="(min-width: 1150px)">
-                    <source srcset="/product-business-promotion/assets/design-CFjnWC5J.png 1x, /product-business-promotion/assets/design@2x-dNXoG9tp.png 2x" media="(min-width: 410px)">
-                    <img class="process-img" src="/product-business-promotion/assets/design-CFjnWC5J.png" alt="A design specialist" width="98px">
+                        media="(min-width: 1150px)" type="image/png">
+                    <source srcset="/img/desktop/design.webp 1x, /img/desktop/design@2x.webp 2x"
+                        media="(min-width: 1150px)" type="image/webp">
+                    <source srcset="/product-business-promotion/assets/design-CFjnWC5J.png 1x, /product-business-promotion/assets/design@2x-dNXoG9tp.png 2x" media="(min-width: 410px)"
+                        type="image/png">
+                    <source srcset="/product-business-promotion/assets/design-DiBsjLDy.webp 1x, /img/mobile/design@2x.webp 2x"
+                        media="(min-width: 410px)" type="image/webp">
+                    <img class="process-img" src="/product-business-promotion/assets/design-CFjnWC5J.png" alt="A design specialist" width="98">
                 </picture>
             </li>
             <li class="process-item">
                 <picture>
                     <source srcset="/product-business-promotion/assets/marketing-D1OZvHK7.png 1x, /product-business-promotion/assets/marketing@2x-CrnBlR_8.png 2x"
-                        media="(min-width: 1150px)">
+                        media="(min-width: 1150px)" type="image/png">
+                    <source srcset="/img/desktop/marketing.webp 1x, /img/desktop/marketing@2x.webp 2x"
+                        media="(min-width: 1150px)" type="image/webp">
                     <source srcset="/product-business-promotion/assets/marketing-B_9SOsvj.png 1x, /product-business-promotion/assets/marketing@2x-Bc_9x7Lc.png 2x"
-                        media="(min-width: 410px)">
-                    <img class="process-img" src="/product-business-promotion/assets/marketing-B_9SOsvj.png" alt="A marketing specialist" width="98px">
+                        media="(min-width: 410px)" type="image/png">
+                    <source srcset="/product-business-promotion/assets/marketing-BLutPbz8.webp 1x, /img/mobile/marketing@2x.webp 2x"
+                        media="(min-width: 410px)" type="image/webp">
+                    <img class="process-img" src="/product-business-promotion/assets/marketing-B_9SOsvj.png" alt="A marketing specialist" width="98">
                 </picture>
                 <p class="process-description">I can help marketing strategy</p>
             </li>
@@ -285,9 +299,13 @@
                 <p class="process-description">I can prototype your app</p>
                 <picture>
                     <source srcset="/product-business-promotion/assets/prototype-DezoWe-c.png 1x, /product-business-promotion/assets/prototype@2x-ClkZ5Je5.png 2x"
-                        media="(min-width: 1150px)">
+                        media="(min-width: 1150px)" type="image/png">
+                    <source srcset="/img/desktop/prototype.webp 1x, /img/desktop/prototype@2x.webp 2x"
+                        media="(min-width: 1150px)" type="image/webp">
                     <source srcset="/product-business-promotion/assets/prototype-Cq0MErI5.png 1x, /product-business-promotion/assets/prototype@2x-Ot5SjOp0.png 2x"
-                        media="(min-width: 410px)">
+                        media="(min-width: 410px)" type="image/png">
+                    <source srcset="/product-business-promotion/assets/prototype-B-wHmLWk.webp 1x, /img/mobile/prototype@2x.webp 2x"
+                        media="(min-width: 410px)" type="image/webp">
                     <img class="process-img" src="/product-business-promotion/assets/prototype-Cq0MErI5.png" alt="An app's prototype specialist"
                         width="98px">
                 </picture>
@@ -304,8 +322,21 @@
         <ul class="strategies-list">
             <li class="strategies-item">
                 <a href="#">
-                    <img class="strategies-img" src="/product-business-promotion/assets/laptops-DxDLwTKh.jpg"
-                        srcset="/product-business-promotion/assets/laptops-DxDLwTKh.jpg 1x, /product-business-promotion/assets/laptops@2x-8MYniKMm.jpg 2x" alt="Laptops" width="350px">
+
+                    <picture>
+                        <source srcset="/product-business-promotion/assets/laptops-DxDLwTKh.jpg 1x, /product-business-promotion/assets/laptops@2x-8MYniKMm.jpg 2x"
+                            media="(min-width: 1150px)" type="image/jpg">
+                        <source srcset="/product-business-promotion/assets/join-img-Do-1e4t_.webp 1x, /product-business-promotion/assets/laptops@2x-DyRUq1tb.webp 2x"
+                            media="(min-width: 1150px)" type="image/webp">
+
+                        <source srcset="/product-business-promotion/assets/laptops-DxDLwTKh.jpg 1x, /img/mobile/join-img@2x.jpg 2x"
+                            media="(min-width: 410px)" type="image/jpg">
+                        <source srcset="/product-business-promotion/assets/join-img-Do-1e4t_.webp 1x, /img/mobile/join-img@2x.webp 2x"
+                            media="(min-width: 410px)" type="image/webp">
+
+                        <img class="strategies-img" src="/product-business-promotion/assets/laptops-DxDLwTKh.jpg" alt="Laptops" width="350">
+                    </picture>
+
                     <div class="strat-author-container">
                         <p class="strategies-author">By <span>Wahid Ari</span> | 03 March 2019</p>
                         <h3 class="strategies-sub-title">Increasing Prosperity With Positive Thinking</h3>
@@ -314,8 +345,21 @@
             </li>
             <li class="strategies-item">
                 <a href="#">
-                    <img class="strategies-img" src="/product-business-promotion/assets/windows-BR6XrOxH.jpg"
-                        srcset="/product-business-promotion/assets/windows-BR6XrOxH.jpg 1x, /product-business-promotion/assets/windows@2x-DEtiUNMC.jpg 2x" alt="Windows" width="350px">
+
+                    <picture>
+                        <source srcset="/product-business-promotion/assets/windows-BR6XrOxH.jpg 1x, /product-business-promotion/assets/windows@2x-DEtiUNMC.jpg 2x"
+                            media="(min-width: 1150px)" type="image/jpg">
+                        <source srcset="/product-business-promotion/assets/windows-DR6DzT-n.webp 1x, /product-business-promotion/assets/windows@2x-ClQsY6UO.webp 2x"
+                            media="(min-width: 1150px)" type="image/webp">
+
+                        <source srcset="/product-business-promotion/assets/windows-BR6XrOxH.jpg 1x, /product-business-promotion/assets/windows@2x-DEtiUNMC.jpg 2x"
+                            media="(min-width: 410px)" type="image/jpg">
+                        <source srcset="/product-business-promotion/assets/windows-DR6DzT-n.webp 1x, /product-business-promotion/assets/windows@2x-ClQsY6UO.webp 2x"
+                            media="(min-width: 410px)" type="image/webp">
+
+                        <img class="strategies-img" src="/product-business-promotion/assets/windows-BR6XrOxH.jpg" alt="Windows" width="350">
+                    </picture>
+
                     <div class="strat-author-container">
                         <p class="strategies-author">By <span>Wahid Ari</span> | 03 March 2019</p>
                         <h3 class="strategies-sub-title">Motivation Is The First Step To Success</h3>
@@ -324,8 +368,21 @@
             </li>
             <li class="strategies-item">
                 <a href="#">
-                    <img class="strategies-img" src="/product-business-promotion/assets/builds-ClKWLWVa.jpg"
-                        srcset="/product-business-promotion/assets/builds-ClKWLWVa.jpg 1x, /product-business-promotion/assets/builds@2x-D97rwqpd.jpg 2x" alt="Builds" width="350px">
+
+                    <picture>
+                        <source srcset="/product-business-promotion/assets/builds-ClKWLWVa.jpg 1x, /product-business-promotion/assets/builds@2x-D97rwqpd.jpg 2x"
+                            media="(min-width: 1150px)" type="image/jpg">
+                        <source srcset="/product-business-promotion/assets/builds-C2_ZxBGn.webp 1x, /product-business-promotion/assets/builds@2x-DG3G5sIA.webp 2x"
+                            media="(min-width: 1150px)" type="image/webp">
+
+                        <source srcset="/product-business-promotion/assets/builds-ClKWLWVa.jpg 1x, /product-business-promotion/assets/builds@2x-D97rwqpd.jpg 2x"
+                            media="(min-width: 410px)" type="image/jpg">
+                        <source srcset="/product-business-promotion/assets/builds-C2_ZxBGn.webp 1x, /product-business-promotion/assets/builds@2x-DG3G5sIA.webp 2x"
+                            media="(min-width: 410px)" type="image/webp">
+
+                        <img class="strategies-img" src="/product-business-promotion/assets/builds-ClKWLWVa.jpg" alt="Builds" width="350">
+                    </picture>
+
                     <div class="strat-author-container">
                         <p class="strategies-author">By <span>Wahid Ari</span> | 03 March 2019</p>
                         <h3 class="strategies-sub-title">Success Steps For Your Personal Or Business</h3>
@@ -537,15 +594,15 @@
             <picture>
                 <source srcset="/product-business-promotion/assets/join-img-CveJmLxu.png 1x, /product-business-promotion/assets/join-img@2x-CphyNpV7.png 2x" media="(min-width: 1150px)"
                     type="image/png">
-                <source srcset="/product-business-promotion/assets/join-img-CveJmLxu.png 1x, /product-business-promotion/assets/join-img@2x-CphyNpV7.png 2x" media="(min-width: 1150px)"
-                    type="image/webp">
+                <source srcset="/product-business-promotion/assets/join-img-Do-1e4t_.webp 1x, /img/mobile/join-img@2x.webp 2x"
+                    media="(min-width: 1150px)" type="image/webp">
 
                 <source srcset="/product-business-promotion/assets/join-img-CveJmLxu.png 1x, /product-business-promotion/assets/join-img@2x-CphyNpV7.png 2x" media="(min-width: 410px)"
                     type="image/png">
-                <source srcset="/product-business-promotion/assets/join-img-CveJmLxu.png 1x, /product-business-promotion/assets/join-img@2x-CphyNpV7.png 2x" media="(min-width: 410px)"
-                    type="image/webp">
+                <source srcset="/product-business-promotion/assets/join-img-Do-1e4t_.webp 1x, /img/mobile/join-img@2x.webp 2x"
+                    media="(min-width: 410px)" type="image/webp">
 
-                <img class="join-img" src="/product-business-promotion/assets/join-img-CveJmLxu.png" alt="Screens" width="350px">
+                <img class="join-img" src="/product-business-promotion/assets/join-img-CveJmLxu.png" alt="Screens" width="350">
             </picture>
         </div>
     </div>
