@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/product-business-promotion/assets/logo-DRD3G95D.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Website of an agency that promotes business services on the Internet">
     <title>Product</title>
   <script type="module" crossorigin src="/product-business-promotion/assets/main-CQs94NVD.js"></script>
   <link rel="stylesheet" crossorigin href="/product-business-promotion/assets/main-CfDc5ty1.css">
@@ -261,8 +262,20 @@
                 <p class="join-text">Join 100 Compannies who boost their business with Product</p>
                 <button class="join-button modal-btn-open" type="button">Get This</button>
             </div>
-            <img class="join-img" src="/product-business-promotion/assets/join-img-CveJmLxu.png"
-                srcset="/product-business-promotion/assets/join-img-CveJmLxu.png 1x, /product-business-promotion/assets/join-img@2x-CphyNpV7.png 2x" alt="Screens">
+
+            <picture>
+                <source srcset="/product-business-promotion/assets/join-img-CveJmLxu.png 1x, /product-business-promotion/assets/join-img@2x-CphyNpV7.png 2x" media="(min-width: 1150px)"
+                    type="image/png">
+                <source srcset="/product-business-promotion/assets/join-img-CveJmLxu.png 1x, /product-business-promotion/assets/join-img@2x-CphyNpV7.png 2x" media="(min-width: 1150px)"
+                    type="image/webp">
+
+                <source srcset="/product-business-promotion/assets/join-img-CveJmLxu.png 1x, /product-business-promotion/assets/join-img@2x-CphyNpV7.png 2x" media="(min-width: 410px)"
+                    type="image/png">
+                <source srcset="/product-business-promotion/assets/join-img-CveJmLxu.png 1x, /product-business-promotion/assets/join-img@2x-CphyNpV7.png 2x" media="(min-width: 410px)"
+                    type="image/webp">
+
+                <img class="join-img" src="/product-business-promotion/assets/join-img-CveJmLxu.png" alt="Screens" width="350px">
+            </picture>
         </div>
     </div>
 </section>
@@ -281,21 +294,23 @@
             <!-- Social icons -->
             <ul class="social-list">
                 <li class="social-item">
-                    <a class="social-link" href="https://www.instagram.com/" target="_blank">
+                    <a class="social-link" href="https://www.instagram.com/" target="_blank"
+                        aria-label="Link to the instagram">
                         <svg class="social-icon" width="24" height="24">
                             <use href="/product-business-promotion/assets/icons-BBaa0MQK.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="social-item">
-                    <a class="social-link" href="https://www.facebook.com/" target="_blank">
+                    <a class="social-link" href="https://www.facebook.com/" target="_blank"
+                        aria-label="Link to the facebook">
                         <svg class="social-icon" width="24" height="24">
                             <use href="/product-business-promotion/assets/icons-BBaa0MQK.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="social-item">
-                    <a class="social-link" href="https://x.com/" target="_blank">
+                    <a class="social-link" href="https://x.com/" target="_blank" aria-label="Link to the twitter">
                         <svg class="social-icon" width="24" height="24">
                             <use href="/product-business-promotion/assets/icons-BBaa0MQK.svg#icon-twitter"></use>
                         </svg>
@@ -343,7 +358,7 @@
 </div>
         <div class="modal-overlay">
     <div class="modal-window">
-        <button class="modal-close-btn modal-btn-close" type="button">
+        <button class="modal-close-btn modal-btn-close" type="button" aria-label="Modal close button">
             <svg class="modal-close-icon" width="20" height="20">
                 <use href="/product-business-promotion/assets/icons-BBaa0MQK.svg#icon-close"></use>
             </svg>
@@ -354,7 +369,7 @@
             <input class="modal-form-input" type="email" name="user-email" placeholder="Your Email" required>
             <textarea class="modal-form-textarea" name="user-message" placeholder="Your Message"></textarea>
         </form>
-        <button class="modal-form-button" type="submit">Send</button>
+        <button class="modal-form-button" type="submit" aria-label="Modal submit button">Send</button>
     </div>
 </div>
     </footer>
