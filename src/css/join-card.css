@@ -46,15 +46,20 @@
 
     .join-card-container {
         display: flex;
+        align-items: center;
+        gap: 90px;
     }
 
     .join-card-text-container {
-        padding: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
     }
 
     .join-text {
         text-align: left;
         margin-bottom: 46px;
+        max-width: 426px;
     }
 
     .join-button {
