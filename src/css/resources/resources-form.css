@@ -55,6 +55,8 @@
     max-width: 410px;
     height: 192px;
     resize: none;
+    display: block;
+    margin-bottom: 44px;
 }
 
 .message-form-textarea:focus,
@@ -64,7 +66,7 @@
 
 .message-form-button {
     border-radius: 35px;
-    min-width: 144px;
+    width: 144px;
     height: 52px;
     border: none;
     background-color: var(--button-bg-color);
@@ -103,9 +105,5 @@
         max-width: 768px;
         display: flex;
         margin: 0 auto 46px;
-    }
-
-    .message-form-textarea {
-        margin-bottom: 0;
     }
 }

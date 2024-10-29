@@ -29,8 +29,12 @@
 
 .strategies-item:hover,
 .strategies-item:focus {
-    color: var(--accent-light-font-color);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.strategies-item:hover .strategies-sub-title,
+.strategies-item:focus .strategies-sub-title {
+    color: var(--accent-light-font-color);
 }
 
 .strategies-img {
