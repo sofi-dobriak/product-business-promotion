@@ -46,11 +46,21 @@
             </li>
         </ul>
 
-        <img class="contact-us-img-mobile" src="/img/mobile/map.png"
-            srcset="/img/mobile/map.png 1x, /img/mobile/map@2x.png 2x" alt="A map">
+        <picture>
+            <source srcset="/img/mobile/map.webp 1x, /img/mobile/map@2x.webp 2x" media="(min-width: 410px)"
+                type="image/webp">
+            <source srcset="/img/mobile/map.png 1x, /img/mobile/map@2x.png 2x" media="(min-width: 410px)"
+                type="image/png">
+            <img class="contact-us-img-mobile" src="/img/mobile/map.png" alt="A map">
+        </picture>
 
-        <img class="contact-us-img-desktop" src="/img/desktop/map.png"
-            srcset="/img/desktop/map.png 1x, /img/desktop/map@2x.png 2x" alt="A map">
+        <picture>
+            <source srcset="/img/desktop/map.webp 1x, /img/desktop/map@2x.webp 2x" media="(min-width: 410px)"
+                type="image/webp">
+            <source srcset="/img/desktop/map.png 1x, /img/desktop/map@2x.png 2x" media="(min-width: 410px)"
+                type="image/png">
+            <img class="contact-us-img-desktop" src="/img/desktop/map.png" alt="A map">
+        </picture>
 
     </div>
 </div>

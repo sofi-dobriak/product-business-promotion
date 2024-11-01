@@ -1,10 +1,16 @@
 <section class="section support-section">
     <div class="container support-section-container">
         <picture>
+            <source srcset="/img/desktop/support-img.webp 1x, /img/desktop/support-img@2x.webp 2x"
+                media="(min-width: 1150px)" type="image/webp">
             <source srcset="/img/desktop/support-img.png 1x, /img/desktop/support-img@2x.png 2x"
-                media="(min-width: 1150px)">
+                media="(min-width: 1150px)" type="image/png">
+
+            <source srcset="/img/mobile/support-img.webp 1x, /img/mobile/support-img@2x.webp 2x"
+                media="(max-width: 1149px)" type="image/webp">
             <source srcset="/img/mobile/support-img.png 1x, /img/mobile/support-img@2x.png 2x"
-                media="(min-width: 410px)">
+                media="(max-width: 1149px)" type="image/png">
+
             <img class="support-img" src="/img/mobile/support-img.png" alt="A laptop">
         </picture>
         <div class="support-text-container">

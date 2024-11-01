@@ -1,8 +1,16 @@
 <section class="hero-section">
     <div class="container hero-section-container">
         <picture>
-            <source srcset="/img/desktop/hero-img.png 1x, /img/desktop/hero-img@2x.png 2x" media="(min-width: 1150px)">
-            <source srcset="/img/mobile/hero-img.png 1x, /img/mobile/hero-img@2x.png 2x" media="(min-width: 410px)">
+            <source srcset="/img/desktop/hero-img.webp 1x, /img/desktop/hero-img@2x.webp 2x" media="(min-width: 1150px)"
+                type="image/webp">
+            <source srcset="/img/desktop/hero-img.png 1x, /img/desktop/hero-img@2x.png 2x" media="(min-width: 1150px)"
+                type="image/png">
+
+            <source srcset="/img/mobile/hero-img.webp 1x, /img/mobile/hero-img@2x.webp 2x" media="(max-width: 1149px)"
+                type="image/webp">
+            <source srcset="/img/mobile/hero-img.png 1x, /img/mobile/hero-img@2x.png 2x" media="(max-width: 1149px)"
+                type="image/png">
+
             <img class="hero-img" src="/img/mobile/hero-img.png" alt="Hero image">
         </picture>
         <div class="hero-text-container">

@@ -3,9 +3,14 @@
         <h2 class="effect-title"> Product is being used with great effects alongside:</h2>
 
         <div class="effect-img-text-container">
-            <img class="mobile-img" src="/img/mobile/effect-img.png"
-                srcset="/img/mobile/effect-img.png 1x, /img/mobile/effect-img@2x.png 2x" alt="People">
 
+            <picture>
+                <source srcset="/img/mobile/effect-img.webp 1x, /img/mobile/effect-img@2x.webp 2x"
+                    media="(min-width: 410px)" type="image/webp">
+                <source srcset="/img/mobile/effect-img.png 1x, /img/mobile/effect-img@2x.png 2x"
+                    media="(min-width: 410px)" type="image/png">
+                <img class="mobile-img" src="/img/mobile/effect-img.png" alt="People">
+            </picture>
 
             <img class="desktop-img" src="/img/desktop/effect-img.png"
                 srcset="/img/desktop/effect-img.png 1x, /img/desktop/effect-img@2x.png 2x" alt="People">
@@ -35,8 +40,7 @@
                     </div>
                     <p class="effect-text">
                         Whether you are working on contract with clients, or on other key accounting documents, Product
-                        is
-                        for you
+                        is for you
                     </p>
                 </li>
                 <li class="effect-item">
