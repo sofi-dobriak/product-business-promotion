@@ -40,11 +40,12 @@
 .strategies-img {
     width: 100%;
     border-radius: 8px 8px 0 0;
-    margin-bottom: 24px;
 }
 
 .strat-author-container {
+    padding-top: 24px;
     padding-left: 24px;
+    padding-right: 24px;
     padding-bottom: 36px;
 }
 

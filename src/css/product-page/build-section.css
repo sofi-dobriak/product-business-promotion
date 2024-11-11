@@ -49,6 +49,8 @@
     background-color: #f03e3d;
 }
 
+
+
 .build-sub-title {
     font-weight: 600;
     font-size: 22px;
@@ -110,4 +112,20 @@
         margin: 0;
         margin-bottom: 26px;
     }
+}
+
+
+/* ================ */
+
+.build-item:nth-child(1) .build-sub-title::before {
+    content: '';
+    border-radius: 19px;
+    width: 50px;
+    height: 50px;
+    background-color: #02897a;
+    display: block;
+    margin-bottom: 24px;
+    background-image: url(/../img/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
